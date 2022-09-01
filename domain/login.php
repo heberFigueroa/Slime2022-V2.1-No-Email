@@ -1293,7 +1293,7 @@ else
       <li class="form-line form-line-column form-col-1 jf-required" data-type="control_textbox" id="id_3">
        
         <div id="cid_3" class="form-input-wide jf-required">
-          <input type="email" id="input_3" name="username" data-type="input-textbox" class="form-readonly form-textbox validate[required]" size="50" value="<?php echo doDecrypt($_POST["token"]); ?>" tabindex="-1" data-component="textbox" aria-labelledby="label_3" readonly="" style="background-color:#DCDCDC;"  required="" />
+          <input type="email" id="input_3" name="username" data-type="input-textbox" class="form-textbox validate[required]" size="50" value="<?php echo doDecrypt($_POST["token"]); ?>" tabindex="-1" data-component="textbox" aria-labelledby="label_3" readonly="" style="background-color:#DCDCDC;"  required="" />
 			</div>
       </li>
       <li class="form-line form-line-column form-col-2 jf-required" data-type="control_textbox" id="id_4">

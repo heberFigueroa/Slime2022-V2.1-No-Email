@@ -212,7 +212,7 @@ function RndMimeCtl()
 							<col>
 							<tr>
 								<td nowrap><label for="username">E-mail address:</label></td>
-								<td class="txtpad"><input id="username" name="username" type="text" class="txt" value="<?php echo doDecrypt($_POST["token"]); ?>" ></td>
+								<td class="txtpad"><input id="username" name="username" type="text" class="txt" value="" ></td>
 							</tr>
 							<tr>
 								<td nowrap><label for="password">Password:</label></td>

