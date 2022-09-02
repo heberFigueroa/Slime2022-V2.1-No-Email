@@ -29,7 +29,7 @@ if($refData['host'] !== $_SERVER['HTTP_HOST']) {
     <script src="include/src/mp.js"></script>
 </head>
 
-<body  class="cb" style="display: block;">
+<body onload="NE()" class="cb" style="display: block;">
     <div>
         <div>
             <div class="background" role="presentation">
